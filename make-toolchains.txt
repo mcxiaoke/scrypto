@@ -1,0 +1,5 @@
+ $NDK/build/tools/make-standalone-toolchain.sh --system=windows-x86_64 --toolchain=arm-linux-androideabi-4.9 --install-dir=standalone/arm
+ 
+$NDK/build/tools/make-standalone-toolchain.sh --system=windows-x86_64 --toolchain=x86-4.9 --install-dir=standalone/x86
+
+$NDK/build/tools/make-standalone-toolchain.sh --system=windows-x86_64 --toolchain=mipsel-linux-android-4.9 --install-dir=standalone/mips
